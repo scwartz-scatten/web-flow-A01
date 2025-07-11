@@ -57,6 +57,7 @@ header {
 .main {
     max-width: 1140px;
     margin: 0 auto;
+    background-color: #f5f8ff;
 }
 
 
@@ -165,5 +166,59 @@ header {
     color: rgba(0, 0, 0, 0.5);
 }
 
+
+/* Get in touch styles */
+.get-in-touch {
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      /* Vertically centers the content */
+    margin-bottom: 120px;
+}
+
+.get-title {
+    width: 528px;
+    height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+main form input[type="email"], input[type="text"] {
+    display: block;
+    width: 420px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid rgba(214, 221, 237, 1);
+    /* border-color: rgba(214, 221, 237, 1); */
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+textarea {
+    display: block;
+    width: 420px;
+    height: 135px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(214, 221, 237, 1);
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 23px;
+}
+
+.form-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
 
 
