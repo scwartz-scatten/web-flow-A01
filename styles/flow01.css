@@ -43,6 +43,12 @@
     border-radius: 10px;
 }
 
+.btn-primary:hover {
+    background-color: rgb(248, 248, 108);
+    color: #000;
+    transition: 200ms;
+}
+
 /* Header Styles */
 header {
     background-image: url('../images/Hero-bg.png');
@@ -356,6 +362,11 @@ footer ul li a {
     text-decoration: none;
     font-weight: 500;
     color: #8987A1;
+}
+
+footer ul li a:hover {
+    font-weight: bold;
+    color: #4E47FF;
 }
 
 
